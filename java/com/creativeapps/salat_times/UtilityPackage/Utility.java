@@ -31,15 +31,14 @@ Route::any('api/newspaper/categories', 'NewsController@categories');
 public class Utility {
 
 
-    public static final String FACEBOOK_BANNER="1418441671536942_1419391274775315";
-    //public static final String FACEBOOK_INTERSTITIAL="806838229483000_815664355267054";
+    public static final String FACEBOOK_BANNER="";
 
-    public static  String APPLICATION_ID="ca-app-pub-3262923942162561~6158494739";
+    public static  String APPLICATION_ID="";
     public static  String PACKAGE_NAME= BuildConfig.APPLICATION_ID;
 
     public static final int RESULT_CLOSE_ALL = 0;
     public static final int REQUEST_ADS=1234;
-    public static final String AD_SERVER_URL="http://bdbasics.com/api/ad/";
+    public static final String AD_SERVER_URL="";
 
     public static  final  String FACEBOOK_PAGE="https://www.facebook.com/Creative-Apps-BD-925997510834702";
     public static  final  String HASBUNALLAH_PAGE="https://www.facebook.com/hasbunallah.bd/";
@@ -50,8 +49,8 @@ public class Utility {
     public static final String APP_LINK="https://play.google.com/store/apps/details?id="+PACKAGE_NAME;
 
     public static final String PUBLISHER_NAME="Creative Apps BD";
-    public static final String PUBLISHER_ID="ca-app-pub-3262923942162561~6158494739";
-    public static final String INTERSTITIAL="ca-app-pub-3262923942162561/6559216297";
+    public static final String PUBLISHER_ID="";
+    public static final String INTERSTITIAL="";
 
     public static final String SHARED_PREF_NAME="myprefs6";
     public static final String RATE_MESSAGE=" আমাদের ৫ স্টার রেটিং দিবেন :)";
@@ -59,7 +58,7 @@ public class Utility {
     public static final  String SHARE_TEXT="বই পড়ুয়া";
     public static final  String APP_DESC="যে কোন অঞ্চলের নামাজের সময়সূচি জানতে ডাউনলোড করুন";
 
-    public static final String BASE_URL="http://bdbasics.com/api/newspaper/";
+    public static final String BASE_URL="";
 //    public static final String RATE_MESSAGE="আমাদের অ্যাপ ব্যবহারের জন্যে আপনাকে ধন্যবাদ!\nপ্লিজ আমাদের ৫স্টার রেটিং দিয়ে হেল্প করবেন :)";
 
     public static final int  MY_PERMISSIONS_REQUEST_CALL=0;
