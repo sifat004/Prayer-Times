@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="obosthan"
+        android:textColor="#fff"
+
+        android:textSize="14dp"
+
+
+
+
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="right"
+
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+
+
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:id="@+id/list_head"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+
+        android:background="#09181515"
+
+
+
+        >
+
+
+
+
+        <TextView
+            android:id="@+id/ramadan_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:text="রমজান"
+            android:textColor="#fff"
+            android:layout_weight="0.5"
+
+            android:textSize="@dimen/sehri_iftar_list"
+
+
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:background="@drawable/rectangular_border"
+
+
+
+            />
+
+        <TextView
+            android:id="@+id/eng_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:textSize="@dimen/sehri_iftar_list"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+
+
+
+            android:text="ইং তারিখ"
+
+            android:textColor="#fff"
+            android:background="@drawable/rectangular_border"
+
+            />
+        <TextView
+            android:id="@+id/beng_day"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="0.5"
+
+            android:textSize="@dimen/sehri_iftar_list"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+
+
+            android:text="দিন"
+
+            android:textColor="#fff"
+            android:background="@drawable/rectangular_border"
+
+            />
+        <TextView
+            android:id="@+id/sehri_last_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+
+            android:textSize="@dimen/sehri_iftar_list"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+
+            android:text="সেহরির শেষ সময়"
+
+            android:textColor="#fff"
+            android:background="@drawable/rectangular_border"
+
+            />
+
+
+
+        <TextView
+            android:id="@+id/iftr_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+
+            android:textSize="@dimen/sehri_iftar_list"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+
+
+            android:text="ইফতারের সময়"
+
+            android:textColor="#fff"
+            android:background="@drawable/rectangular_border"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <ListView
+
+        android:id="@+id/sehri_iftar_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingBottom="10dp"
+
+       >
+
+
+    </ListView>
+
+</LinearLayout>

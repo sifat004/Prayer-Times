@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+
+    android:layout_height="100dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/customboarder"
+
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/salat_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/salat_time"
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginLeft="10dp"
+        android:text="Salat_Name"
+        android:textColor="#fff"
+        android:textSize="@dimen/salat_text_size" />
+
+    <TextView
+        android:id="@+id/salat_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Salat_Time"
+        android:textColor="#fff"
+        android:textSize="@dimen/salat_text_size" />
+
+    <ImageButton
+        android:id="@+id/alarm_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:background="#00ffffff"
+        android:scaleType="fitEnd" />
+
+
+</RelativeLayout>
+
+

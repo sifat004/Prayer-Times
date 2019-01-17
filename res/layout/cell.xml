@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/date_element"
+    android:background="@drawable/rectangular_border"
+
+
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:padding="2dp"
+        android:gravity="left"
+
+        android:weightSum="2"
+        >
+        <TextView
+            android:id="@+id/eng_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="#fff"
+
+            android:textSize="@dimen/beng_date_size"
+            android:layout_weight="1"
+            android:paddingLeft="2dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/eng_new_month_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#fff"
+
+
+            android:textSize="10dp"
+            android:layout_weight="1"
+            android:paddingRight="1dp"
+
+
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/hijri_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/eng_date_size"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

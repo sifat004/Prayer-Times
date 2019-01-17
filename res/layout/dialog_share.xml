@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@android:drawable/dialog_holo_dark_frame"
+
+
+    >
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:gravity="center"
+
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/share_on_socaial_dialog_text"
+
+
+        />
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/share_fb"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+
+            android:background="@drawable/fb_hex"
+
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:padding="5dp"
+
+
+
+            />
+
+        <Button
+            android:id="@+id/share_gplus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+
+            android:background="@drawable/gplus_hex"
+
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:padding="5dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:gravity="center"
+
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:text="@string/share_on_alternative_socaial_dialog_text"
+
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/share_others"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+
+
+            android:background="@drawable/share"
+
+            android:layout_marginTop="5dp"
+
+            android:gravity="center"
+            android:padding="5dp"
+
+
+            />
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>

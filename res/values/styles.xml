@@ -1,0 +1,26 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/holo_blue_light</item>
+        <item name="colorPrimaryDark">#00000000</item>
+        <item name="colorAccent">@color/holo_blue_light</item>
+
+        <!--<item name="colorAccent">#D31663</item>-->
+
+    </style>
+
+
+    <style name="Theme_two" parent="Theme.AppCompat.NoActionBar">
+        Customize your theme here.
+        <item name="colorPrimary">#EB3D56</item>
+        <item name="colorPrimaryDark">#00000000</item>
+        <item name="colorAccent">#EB3D56</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

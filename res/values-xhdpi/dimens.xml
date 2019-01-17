@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="next_salat_text_size" >18dp </dimen>
+    <dimen name="subh_sadik_text_size">14dp</dimen>
+    <dimen name="location_text_size">12dp</dimen>
+    <dimen name="salat_text_size">18dp</dimen>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="?android:attr/textColorAlertDialogListItem"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dip"
+        android:paddingRight="7dip"
+        android:paddingStart="12dip"
+        android:paddingEnd="7dip"
+        android:background="@color/white"
+        android:textColorHint="@color/cardview_dark_background"
+
+        android:checkMark="?android:attr/listChoiceIndicatorSingle"
+        android:ellipsize="marquee"
+        />
+
+    <!--<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@android:id/text1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:minHeight="?android:attr/listPreferredItemHeight"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:textColor="?android:attr/textColorAlertDialogListItem"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:paddingStart="12dip"-->
+        <!--android:paddingEnd="7dip"-->
+        <!--android:paddingLeft="12dip"-->
+        <!--android:paddingRight="7dip"-->
+        <!--android:checkMark="?android:attr/listChoiceIndicatorSingle"-->
+        <!--android:ellipsize="marquee"-->
+        <!--/>-->
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_blue_light">  #33b5e5</color>
+
+
+
+    <color name="input_text">#000000</color>
+    <color name="button_white">#ff18b3a8</color>
+
+    <color name="white">#ffffffff</color>
+
+    <color name="light_blue">#0000a2e8</color>
+
+    <color name="grad_1">#8c514848</color>
+    <color name="grad_3">#68424549</color>
+    <color name="grad_4">#e20a100b</color>
+
+    <color name="grad_5">#ae00e676</color>
+
+</resources>

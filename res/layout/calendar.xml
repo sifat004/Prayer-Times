@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:id="@+id/main_background"
+    android:background="#fff"
+    android:paddingTop="60dp"
+
+
+    android:weightSum="6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:padding="2dp"
+        android:gravity="center"
+        android:layout_weight="0.5"
+
+        android:weightSum="2"
+        android:layout_marginTop="30dp"
+
+
+        >
+        <TextView
+            android:id="@+id/month_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="রমজান ২০১৮"
+            android:textSize="@dimen/eng_date_size"
+            android:layout_margin="4dp"
+            android:layout_gravity="center"
+
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="3.5"
+
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/parent"
+        android:weightSum="5.5"
+
+
+        >
+
+
+
+        <include
+            layout="@layout/month_row_days"
+            />
+
+        <include
+            layout="@layout/month_row_1"
+            />
+
+        <include
+            layout="@layout/month_row_2"
+            />
+
+        <include
+            layout="@layout/month_row_3"
+            />
+
+        <include
+            layout="@layout/month_row_4"
+            />
+
+        <include
+            layout="@layout/month_row_5"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সম্পূর্ণ ক্যালেন্ডার ডাউনলোড করুন"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="@dimen/text_size_large"
+                android:id="@+id/get_calendar"
+
+
+
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_down"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:src="@drawable/down"
+                app:backgroundTint="#51000000"
+                app:fabSize="mini"
+
+
+                />
+
+
+
+
+
+        </LinearLayout>
+
+</LinearLayout>

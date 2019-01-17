@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="0.5"
+android:orientation="horizontal"
+android:weightSum="7"
+android:id="@+id/rowDays"
+
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/day1"
+    android:orientation="horizontal">
+
+    <include
+        layout="@layout/cell2"
+        />
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/day2"
+    android:orientation="horizontal">
+    <include
+        layout="@layout/cell2"
+        />
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/day3"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <include
+        layout="@layout/cell2"
+        />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/day4"
+    android:orientation="horizontal">
+
+    <include
+        layout="@layout/cell2"
+        />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/day5"
+    android:orientation="horizontal">
+
+    <include
+        layout="@layout/cell2"
+        />
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/day6"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <include
+        layout="@layout/cell2"
+        />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/day7"
+    android:orientation="horizontal">
+
+    <include
+        layout="@layout/cell2"
+        />
+
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+
+

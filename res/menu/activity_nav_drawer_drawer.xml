@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<group   android:id="@+id/menu_1"
+
+         android:checkableBehavior="single"
+
+   >
+
+    <item tools:ignore="MenuTitle"
+
+        />
+
+    <item
+
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="সময় গণনার নিয়ম"
+        />
+
+    <item
+
+        android:id="@+id/asr_settings"
+        android:icon="@drawable/check"
+        android:title="ওয়াক্ত নির্ধারণ করার পদ্ধতি"/>
+
+    <item
+
+        android:id="@+id/hijri_fix"
+        android:icon="@drawable/settings"
+        android:title="হিজরি তারিখ সংশোধন"/>
+
+    <item
+        android:id="@+id/nav_five_alarms"
+        android:icon="@drawable/azaan_icon"
+        android:title="পাঁচ ওয়াক্তের আজান সেট করুন"/>
+
+    <!--<item-->
+        <!--android:id="@+id/cancel_all"-->
+        <!--android:icon="@drawaalarm_off36dp"-->
+        <!--android:title="সব অ্যালার্ম বন্ধ করুন"/>-->
+
+    <item
+        android:id="@+id/nav_alarm_repeat"
+        android:icon="@drawable/ic_notifications_white_36dp"
+        android:title="অ্যালার্ম রিপিট"/>
+
+</group>
+
+
+
+
+    <group
+        android:id="@+id/menu_4"
+
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/hasbunallah"
+            android:icon="@drawable/thumb_up"
+            android:title="আমাদের ফেসবুক পেইজ"/>
+        <item
+            android:id="@+id/nav_fb_page"
+            android:icon="@drawable/home"
+            android:title="আমাদের ফেসবুক গ্রুপ"/>
+
+    </group>
+
+    <group
+        android:id="@+id/menu_3"
+
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/quran_app"
+            android:icon="@drawable/quran"
+            android:title="কুরআন পড়ুন "/>
+        <item
+            android:id="@+id/talking_clock"
+            android:icon="@drawable/clock"
+            android:title="কথা বলা ঘড়ি"/>
+    </group>
+
+
+    <group
+        android:id="@+id/menu_2"
+
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/star"
+            android:title="অ্যাপ টি কে রেটিং দিন"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="অ্যাপ টি শেয়ার করুন"/>
+
+        <item
+            android:id="@+id/nav_app_store"
+            android:icon="@drawable/android"
+            android:title="আমাদের অন্য অ্যাপ"/>
+    </group>
+
+
+</menu>

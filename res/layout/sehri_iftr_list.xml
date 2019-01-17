@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:id="@+id/list_item"
+
+
+
+    >
+
+
+
+
+        <TextView
+            android:id="@+id/ramadan_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:text="Ramadan_date"
+            android:textColor="#fff"
+            android:layout_weight="0.5"
+
+            android:textSize="@dimen/sehri_iftar_list"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:background="@drawable/rectangular_border"
+
+
+
+            />
+
+        <TextView
+            android:id="@+id/eng_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textSize="@dimen/sehri_iftar_list"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+
+
+
+            android:text="Salat_Time"
+
+            android:textColor="#fff"
+            android:background="@drawable/rectangular_border"
+
+            />
+        <TextView
+            android:id="@+id/beng_day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+          android:layout_weight="0.5"
+
+            android:textSize="@dimen/sehri_iftar_list"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+
+
+            android:text="Salat_Time"
+
+            android:textColor="#fff"
+            android:background="@drawable/rectangular_border"
+
+            />
+    <TextView
+        android:id="@+id/sehri_last_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+
+        android:textSize="@dimen/sehri_iftar_list"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+
+        android:text="Sehri_Time"
+
+        android:textColor="#fff"
+        android:background="@drawable/rectangular_border"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/iftr_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+
+        android:textSize="@dimen/sehri_iftar_list"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+
+
+        android:text="Salat_Time"
+
+        android:textColor="#fff"
+        android:background="@drawable/rectangular_border"
+
+        />
+
+
+
+</LinearLayout>

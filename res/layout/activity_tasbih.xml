@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:id="@+id/main_layout">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/tasbih_container"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+      >
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:src="@drawable/counter"
+            android:id="@+id/digital_counter"
+
+            />
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:id="@+id/relativeLayout4"
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:id="@+id/digits"
+
+                >
+
+                <TextView
+                    android:id="@+id/left_digit"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/digital7"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="60dp"
+                    android:padding="2dp"
+                    />
+
+                <TextView
+                    android:id="@+id/middle_digit"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toEndOf="@id/left_digit"
+                    android:layout_toRightOf="@id/left_digit"
+                    android:fontFamily="@font/digital7"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="60dp"
+                    android:padding="2dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/right_digit"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toEndOf="@id/middle_digit"
+                    android:layout_toRightOf="@id/middle_digit"
+                    android:fontFamily="@font/digital7"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="60dp"
+                    android:padding="2dp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <!--<Button-->
+            <!--android:id="@+id/reset"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignEnd="@+id/relativeLayout4"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignRight="@+id/relativeLayout4"-->
+            <!--android:background="@drawable/gradient_10"-->
+            <!--android:text="RESET"-->
+
+            <!--/>-->
+
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/totalText"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:layout_alignBottom="@+id/total"-->
+
+            <!--android:layout_toEndOf="@+id/relativeLayout4"-->
+            <!--android:layout_toRightOf="@+id/relativeLayout4"-->
+            <!--android:gravity="right"-->
+            <!--android:text="Total"-->
+            <!--android:textSize="18dp"-->
+            <!--android:typeface="monospace" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/total"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@+id/totalText"-->
+            <!--android:gravity="left"-->
+            <!--android:text="00"-->
+            <!--android:textSize="40dp"-->
+            <!--android:fontFamily="@font/digital7"-->
+
+ <!--/>-->
+
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/reset"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/tasbih_container"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/reset"
+
+
+        />
+
+</RelativeLayout>
+
